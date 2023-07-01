@@ -8,7 +8,8 @@ The implementation represents the iOS application, supports iOS from 13.0, and c
 
 ## The "Recent Uploads" screen
 
-![Simulator Screen Shot - iPhone 14 - 2023-07-01 at 17 09 20](https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/701970bb-59b2-4db9-bdb7-332f5b0b7293)
+<img src="[https://github.com/favicon.ico](https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/701970bb-59b2-4db9-bdb7-332f5b0b7293)" width="250">
+
 
 The screen displays the images grid of downloaded image thumbnails data from https://unsplash.com API, which supports paginated loading of data while the user scrolls the grid, there are 30 items received by each request.
 During the first portion of the image request from the API, the user sees the loading indicator at the centre of the screen. When the first portion of images is already on the screen,
