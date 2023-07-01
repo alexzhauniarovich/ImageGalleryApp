@@ -9,7 +9,7 @@ The implementation represents the iOS application, supports iOS from 13.0, and c
 
 ## The "Recent Uploads" screen
 
-<a href="url"><img src="https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/701970bb-59b2-4db9-bdb7-332f5b0b7293"  width="350" ></a>
+<a href="url"><img src="https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/5f372d6a-749f-49c2-8370-03f2eca665d0"  width="350" ></a>
 
 The screen displays the images grid of downloaded image thumbnails data from https://unsplash.com API, which supports paginated loading of data while the user scrolls the grid, there are 30 items received by each request.
 During the first portion of the image request from the API, the user sees the loading indicator at the centre of the screen. When the first portion of images is already on the screen,
@@ -17,10 +17,9 @@ the loading indicator appears as always the last item of the grid, this loading 
 Each image on the screen contains a favourite icon, in the case when the image was marked as a favourite before. By tapping on the image, the app redirects the user to the next screen.
 
 
-
 ## The "Image Gallery" screen
 
-<a href="url"><img src="https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/69407514-bd9f-46b6-8b1b-409a648ce5aa"  width="350" ></a>   <a href="url"><img src="https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/19fbafe2-c6e8-4604-ace8-af589eaa32a8"   width="350" ></a>
+<a href="url"><img src="https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/85832d10-0794-4fa3-9be3-0de62f79f151"  width="350" ></a>   <a href="url"><img src="https://github.com/alexzhauniarovich/ImageGalleryApp/assets/77155155/ace3c677-bfbe-43e1-9382-103735a2b63d"   width="350" ></a>
 
 The screen displays the image in better quality on full-screen view with the description and location of the particular image, if they are available. The screen supports the user swipe gesture to slide between the image set which was loaded on the previous screen in the navigation stack and also there is supporting the pitch-to-zoom gesture on board. The user has the ability to like or remove a like for a particular photo.
 
