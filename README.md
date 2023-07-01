@@ -46,4 +46,11 @@ The application contains the next layers:
   - The dependency injection is implemented with a custom dependencies graph.
   - The tests are not available for a while, the codebase is written with meaning to cover it with the tests, and all required architecture preparation is implemented as well.
  
- 
+ ## Tips
+
+ The xCode has some random bugs during building the internal packages and solving imports between them, to sole such issue please try to do the:
+  1) Product -> Clean Build Folder
+  2) File -> Packages -> Reset Package Caches
+  3) Restart the system process of xCode
+  4) Build each target (Domain, Data, Presentation) separately, then build the App target itself
+  5) Run the app, all issues should be solved
