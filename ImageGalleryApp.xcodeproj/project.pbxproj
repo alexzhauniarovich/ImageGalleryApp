@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E079F242A4E04B20090A479 /* AppDependenciesGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E079F232A4E04B20090A479 /* AppDependenciesGraph.swift */; };
+		9E079F262A4E1D0C0090A479 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E079F252A4E1D0C0090A479 /* AppRouter.swift */; };
+		9E079F282A4E1E670090A479 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E079F272A4E1E670090A479 /* Colors.xcassets */; };
 		9E1AD8AC2A4C583E00332A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1AD8AB2A4C583E00332A73 /* AppDelegate.swift */; };
 		9E1AD8AE2A4C583E00332A73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1AD8AD2A4C583E00332A73 /* SceneDelegate.swift */; };
 		9E1AD8B82A4C584100332A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1AD8B72A4C584100332A73 /* Assets.xcassets */; };
@@ -16,6 +19,7 @@
 		9E266B2B2A4C6EA300758F8B /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 9E266B2A2A4C6EA300758F8B /* Data */; };
 		9E266B2D2A4C6EB400758F8B /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 9E266B2C2A4C6EB400758F8B /* Domain */; };
 		9E266B2F2A4C6EFC00758F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E266B2E2A4C6EFC00758F8B /* LaunchScreen.storyboard */; };
+		9EC686202A504EB100FB931C /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 9EDCA36C2A4C69B4007C5B74 /* Data */; };
 		9EDCA3722A4C6AE2007C5B74 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 9EDCA3712A4C6AE2007C5B74 /* Presentation */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9E1AD8A82A4C583E00332A73 /* ImageGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E079F232A4E04B20090A479 /* AppDependenciesGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependenciesGraph.swift; sourceTree = "<group>"; };
+		9E079F252A4E1D0C0090A479 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		9E079F272A4E1E670090A479 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		9E1AD8A82A4C583E00332A73 /* Image Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1AD8AB2A4C583E00332A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1AD8AD2A4C583E00332A73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E1AD8B72A4C584100332A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,7 +105,7 @@
 		9E1AD8A92A4C583E00332A73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E1AD8A82A4C583E00332A73 /* ImageGalleryApp.app */,
+				9E1AD8A82A4C583E00332A73 /* Image Gallery.app */,
 				9E1AD8C12A4C584100332A73 /* ImageGalleryAppTests.xctest */,
 				9E1AD8CB2A4C584100332A73 /* ImageGalleryAppUITests.xctest */,
 			);
@@ -109,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				9E1AD8AB2A4C583E00332A73 /* AppDelegate.swift */,
+				9E079F232A4E04B20090A479 /* AppDependenciesGraph.swift */,
+				9E079F252A4E1D0C0090A479 /* AppRouter.swift */,
 				9E1AD8AD2A4C583E00332A73 /* SceneDelegate.swift */,
 				9E1AD8BC2A4C584100332A73 /* Info.plist */,
 				9E1AD8E82A4C5C7A00332A73 /* Resources */,
@@ -138,6 +147,7 @@
 			children = (
 				9E266B2E2A4C6EFC00758F8B /* LaunchScreen.storyboard */,
 				9E1AD8B72A4C584100332A73 /* Assets.xcassets */,
+				9E079F272A4E1E670090A479 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -171,7 +181,7 @@
 				9E266B2C2A4C6EB400758F8B /* Domain */,
 			);
 			productName = ImageGalleryApp;
-			productReference = 9E1AD8A82A4C583E00332A73 /* ImageGalleryApp.app */;
+			productReference = 9E1AD8A82A4C583E00332A73 /* Image Gallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9E1AD8C02A4C584100332A73 /* ImageGalleryAppTests */ = {
@@ -242,6 +252,8 @@
 				Base,
 			);
 			mainGroup = 9E1AD89F2A4C583E00332A73;
+			packageReferences = (
+			);
 			productRefGroup = 9E1AD8A92A4C583E00332A73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +270,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC686202A504EB100FB931C /* Data in Resources */,
+				9E079F282A4E1E670090A479 /* Colors.xcassets in Resources */,
 				9E1AD8B82A4C584100332A73 /* Assets.xcassets in Resources */,
 				9E266B2F2A4C6EFC00758F8B /* LaunchScreen.storyboard in Resources */,
 			);
@@ -284,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E079F242A4E04B20090A479 /* AppDependenciesGraph.swift in Sources */,
+				9E079F262A4E1D0C0090A479 /* AppRouter.swift in Sources */,
 				9E1AD8AC2A4C583E00332A73 /* AppDelegate.swift in Sources */,
 				9E1AD8AE2A4C583E00332A73 /* SceneDelegate.swift in Sources */,
 			);
@@ -441,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U28V885RM;
@@ -457,7 +474,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.zh.ImageGalleryApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Image Gallery";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2U28V885RM;
@@ -485,7 +503,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.zh.ImageGalleryApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Image Gallery";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
