@@ -120,7 +120,7 @@ private extension ImagesOverviewViewModel {
         }()
         
         return ImageDetailsCellModel(
-            image: Just(imageData.urls?.full).eraseToAnyPublisher(),
+            image: Just(imageData.urls?.regular).eraseToAnyPublisher(),
             description: Just(imageData.description ?? "").eraseToAnyPublisher(),
             location: Just(locationText).eraseToAnyPublisher(),
             isFavourite: Just(imageData.isFavorite).eraseToAnyPublisher(),

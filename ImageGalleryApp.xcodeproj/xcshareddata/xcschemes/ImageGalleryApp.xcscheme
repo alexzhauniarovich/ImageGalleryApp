@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9E1AD8A72A4C583E00332A73"
-               BuildableName = "ImageGalleryApp.app"
+               BuildableName = "Image Gallery.app"
                BlueprintName = "ImageGalleryApp"
                ReferencedContainer = "container:ImageGalleryApp.xcodeproj">
             </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E1AD8A72A4C583E00332A73"
-            BuildableName = "ImageGalleryApp.app"
+            BuildableName = "Image Gallery.app"
             BlueprintName = "ImageGalleryApp"
             ReferencedContainer = "container:ImageGalleryApp.xcodeproj">
          </BuildableReference>
@@ -90,7 +90,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E1AD8A72A4C583E00332A73"
-            BuildableName = "ImageGalleryApp.app"
+            BuildableName = "Image Gallery.app"
             BlueprintName = "ImageGalleryApp"
             ReferencedContainer = "container:ImageGalleryApp.xcodeproj">
          </BuildableReference>

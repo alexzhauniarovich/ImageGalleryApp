@@ -111,7 +111,6 @@ final class OverviewImageCell: UICollectionViewCell {
     // MARK: - Private fields
     
     private var cellData: ImageDetailsCellModel?
-    
     private var subscriptions: Set<AnyCancellable> = []
     
     // MARK: - Initialisations
@@ -125,6 +124,8 @@ final class OverviewImageCell: UICollectionViewCell {
         super.init(frame: frame)
         setup()
     }
+    
+    // MARK: - Lifecycle
     
     override func prepareForReuse() {
         super.prepareForReuse()
