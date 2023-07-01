@@ -30,11 +30,11 @@ The code base was written with respect to a "Clean Architecture" guideline, to a
 The MVVM was implemented as an architecture approach, for communication between layers and data binding in View-ViewModel, the native framework Combine with reactive programming was used under the hood.
 The application contains the next layers:
 
- - Domain: The Domain layer is responsible for handling the particular use cases in the app. Contains business logic. The top-level layer has no dependencies.
+ - Domain: The Domain layer is responsible for handling the particular use cases in the app. Contains business logic, the top-level layer, has no dependencies.
    
- - Data: The data package is responsible for retrieving and storing the data. Handles network requests and persistence local storage. Depends on the Domain layer.
+ - Data: The Data layer is responsible for retrieving and storing the data. Handles network requests and persistence local storage. Depends on the Domain layer.
    
- - Presentation: The presentation layer is responsible for the preparation of the user interface and handling user events on it. Depends on the Domain layer.
+ - Presentation: The Presentation layer is responsible for the preparation of the user interface and handling user events on it. Depends on the Domain layer.
 
 ## Implementation
 
@@ -48,7 +48,7 @@ The application contains the next layers:
  
  ## Tips
 
- The xCode has some random bugs during building the internal packages and solving imports between them, to sole such issue please try to do the:
+ The xCode has some random bugs during building the internal packages and solving imports between them, to solve such issue please try to do the:
   1) Product -> Clean Build Folder
   2) File -> Packages -> Reset Package Caches
   3) Restart the system process of xCode
