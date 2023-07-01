@@ -30,11 +30,11 @@ The code base was written with respect to a "Clean Architecture" guideline, to a
 The MVVM was implemented as an architecture approach, for communication between layers and data binding in View-ViewModel, the native framework Combine with reactive programming was used under the hood.
 The application contains the next layers:
 
- - Domain: Representation of application Domain layer. The Domain layer is responsible for handling the particular use cases in the app. Contains business logic. The top-level layer has no dependencies.
+ - Domain: The Domain layer is responsible for handling the particular use cases in the app. Contains business logic. The top-level layer has no dependencies.
    
- - Data: Representation of application Data layer. The data package is responsible for retrieving and storing the data. Handles network requests and persistence local storage. Depends on the Domain layer.
+ - Data: The data package is responsible for retrieving and storing the data. Handles network requests and persistence local storage. Depends on the Domain layer.
    
- - Presentation: Representation of application Presentation layer. The presentation layer is responsible for the preparation of the user interface and handling user events on it. Depends on the Domain layer.
+ - Presentation: The presentation layer is responsible for the preparation of the user interface and handling user events on it. Depends on the Domain layer.
 
 ## Implementation
 
